@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:id="@+id/tvTitle"
+        tools:text="Fecha"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:id="@+id/tvBody"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Magnitud" />
+    <TextView
+        android:id="@+id/tvProfundidad"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Profundidad"/>
+    <TextView
+        android:id="@+id/tvRefGeografica"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="RefGeografica"/>
+    <TextView
+        android:id="@+id/tvFechaUpdate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="FechaUpdate"/>
+
+
+
+
+</LinearLayout>
