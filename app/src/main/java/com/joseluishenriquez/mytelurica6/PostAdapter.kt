@@ -35,7 +35,7 @@ class PostviewHolder(itemView: View): RecyclerView.ViewHolder (itemView){
         tvBody.text = postModel.Magnitud +" -> Magnitud"
         tvProfundidad.text= postModel.Profundidad +" -> Profundidad"
         tvRefGeografica.text= postModel.RefGeografica+ " -> Referencia geográfica"
-        tvFechaUpdate.text = postModel.RefGeografica+ " -> Fecha de actualización"
+        tvFechaUpdate.text = postModel.FechaUpdate+ " -> Fecha de actualización"
 
 
     }
