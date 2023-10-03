@@ -6,8 +6,22 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+
+        android:gravity="center"
+        android:text="@string/tituloDeLaAPP"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
     <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/myRecyclerView"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"/>
+        android:layout_height="689dp"
+        android:layout_gravity="bottom"
+        android:foregroundGravity="center_vertical" />
+
 </FrameLayout>

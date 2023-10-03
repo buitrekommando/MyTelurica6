@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">MyTelurica6</string>
+    <string name="subTitulo">SISMO</string>
+    <string name="tituloDeLaAPP">MI APLICACIÓN TELURICA V.6</string>
 </resources>
