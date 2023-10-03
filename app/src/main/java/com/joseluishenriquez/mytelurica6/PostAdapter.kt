@@ -26,10 +26,17 @@ class PostAdapter(val postModel: MutableList<PostModel> ): RecyclerView.Adapter<
 class PostviewHolder(itemView: View): RecyclerView.ViewHolder (itemView){
     private val tvTitle: TextView = itemView.findViewById(R.id.tvTitle)
     private val tvBody: TextView = itemView.findViewById(R.id.tvBody)
+    private val tvProfundidad: TextView = itemView.findViewById(R.id.tvProfundidad)
+    private val tvRefGeografica:TextView =itemView.findViewById(R.id.tvRefGeografica)
+    private val tvFechaUpdate:TextView = itemView.findViewById(R.id.tvFechaUpdate)
 
     fun bindView(postModel: PostModel){
-        tvTitle.text = postModel.Fecha
-        tvBody.text = postModel.Magnitud
+        tvTitle.text = postModel.Fecha +" -> Fecha"
+        tvBody.text = postModel.Magnitud +" -> Magnitud"
+        tvProfundidad.text= postModel.Profundidad +" -> Profundidad"
+        tvRefGeografica.text= postModel.RefGeografica+ " -> Referencia geográfica"
+        tvFechaUpdate.text = postModel.RefGeografica+ " -> Fecha de actualización"
+
 
     }
 

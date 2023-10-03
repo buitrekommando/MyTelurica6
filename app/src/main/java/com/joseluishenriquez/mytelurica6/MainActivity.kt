@@ -19,7 +19,7 @@ class MainActivity : AppCompatActivity() {
         val recyclerView = findViewById<RecyclerView>(R.id.myRecyclerView)
 
         val serviceGenerator = ServiceGenerator.buildService(ApiService::class.java)
-        val call = serviceGenerator.getPost()
+            val call = serviceGenerator.getPost()
 
 
             call.enqueue(object : retrofit2.Callback<MutableList<PostModel>>{
