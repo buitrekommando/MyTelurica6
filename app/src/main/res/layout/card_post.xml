@@ -58,7 +58,7 @@
         android:id="@+id/textView8"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:background="#4CAF50"
+        android:background="#CDDC39"
         android:padding="5dp"
         android:text="Pofundidad  en KLM" />
 
@@ -66,7 +66,7 @@
         android:id="@+id/tvProfundidad"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:background="#4CAF50"
+        android:background="#CDDC39"
         android:padding="5dp"
         android:text="Profundidad"
         android:textStyle="bold" />
@@ -75,7 +75,7 @@
         android:id="@+id/textView6"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:background="#F44336"
+        android:background="#FFEB3B"
         android:padding="5dp"
         android:text="Referencia geográfica" />
 
@@ -83,7 +83,7 @@
         android:id="@+id/tvRefGeografica"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:background="#F44336"
+        android:background="#FFEB3B"
         android:padding="5dp"
         android:text="RefGeografica"
         android:textStyle="bold" />
@@ -92,7 +92,7 @@
         android:id="@+id/textView7"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:background="#FF5722"
+        android:background="#CDDC39"
         android:padding="5dp"
         android:text="Actualización" />
 
@@ -100,7 +100,7 @@
         android:id="@+id/tvFechaUpdate"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:background="#FF5722"
+        android:background="#CDDC39"
         android:padding="5dp"
         android:paddingBottom="10dp"
         android:text="FechaUpdate"

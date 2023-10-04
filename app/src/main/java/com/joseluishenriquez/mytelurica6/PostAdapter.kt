@@ -31,11 +31,11 @@ class PostviewHolder(itemView: View): RecyclerView.ViewHolder (itemView){
     private val tvFechaUpdate:TextView = itemView.findViewById(R.id.tvFechaUpdate)
 
     fun bindView(postModel: PostModel){
-        tvTitle.text = postModel.Fecha +" -> Fecha"
-        tvBody.text = postModel.Magnitud +" -> Magnitud"
-        tvProfundidad.text= postModel.Profundidad +" -> Profundidad"
-        tvRefGeografica.text= postModel.RefGeografica+ " -> Referencia geográfica"
-        tvFechaUpdate.text = postModel.FechaUpdate+ " -> Fecha de actualización"
+        tvTitle.text = postModel.Fecha
+        tvBody.text = postModel.Magnitud +"º Richter"
+        tvProfundidad.text= postModel.Profundidad +" Kilometros"
+        tvRefGeografica.text= postModel.RefGeografica
+        tvFechaUpdate.text = postModel.FechaUpdate
 
 
     }
