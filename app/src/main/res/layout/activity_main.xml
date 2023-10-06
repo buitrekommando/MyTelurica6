@@ -20,17 +20,8 @@
     <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/myRecyclerView"
         android:layout_width="match_parent"
-        android:layout_height="701dp"
+        android:layout_height="689dp"
         android:layout_gravity="bottom"
         android:foregroundGravity="center_vertical" />
-
-    <Button
-        android:id="@+id/btn_reload"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_gravity="center_horizontal"
-        android:insetTop="50dp"
-        android:text="@string/btn_txt"
-        android:textColorLink="#4CAF50" />
 
 </FrameLayout>

@@ -2,6 +2,4 @@
     <string name="app_name">MyTelurica6</string>
     <string name="subTitulo">SISMO</string>
     <string name="tituloDeLaAPP">MI APLICACIÓN TELURICA V.6</string>
-    <string name="titulo_fechadelSismo">Fecha del sismo:</string>
-    <string name="btn_txt">Actualizar</string>
 </resources>
