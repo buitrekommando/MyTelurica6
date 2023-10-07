@@ -7,3 +7,4 @@ interface ApiService {
     @GET("sismos")
     fun getPost() : Call<MutableList<PostModel>>
 }
+//ultimo arreglo
